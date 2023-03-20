@@ -226,65 +226,6 @@
         }
       },
       {
-        "HashCode": -1778559527,
-        "Kind": "Components.Component",
-        "Name": "MainElements.TopBar",
-        "AssemblyName": "Portfolio-Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TopBar"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MainElements.TopBar",
-          "Common.TypeNamespace": "MainElements",
-          "Common.TypeNameIdentifier": "TopBar"
-        }
-      },
-      {
-        "HashCode": -421279900,
-        "Kind": "Components.Component",
-        "Name": "MainElements.TopBar",
-        "AssemblyName": "Portfolio-Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainElements.TopBar"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MainElements.TopBar",
-          "Common.TypeNamespace": "MainElements",
-          "Common.TypeNameIdentifier": "TopBar",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1419634469,
         "Kind": "Components.Component",
         "Name": "MainElements.ProjectArticle",
@@ -561,6 +502,65 @@
           "Common.TypeName": "MainElements.IndexArticle",
           "Common.TypeNamespace": "MainElements",
           "Common.TypeNameIdentifier": "IndexArticle",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1778559527,
+        "Kind": "Components.Component",
+        "Name": "MainElements.TopBar",
+        "AssemblyName": "Portfolio-Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TopBar"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MainElements.TopBar",
+          "Common.TypeNamespace": "MainElements",
+          "Common.TypeNameIdentifier": "TopBar"
+        }
+      },
+      {
+        "HashCode": -421279900,
+        "Kind": "Components.Component",
+        "Name": "MainElements.TopBar",
+        "AssemblyName": "Portfolio-Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainElements.TopBar"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MainElements.TopBar",
+          "Common.TypeNamespace": "MainElements",
+          "Common.TypeNameIdentifier": "TopBar",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
