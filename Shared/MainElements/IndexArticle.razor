@@ -1,0 +1,21 @@
+@namespace MainElements
+
+<article>
+    <img src="img/@Image" height="150rem" >
+    <div>
+        <h2 id="@Id" >@Title</h2>
+        <p> @Description </p>
+    </div>
+    
+</article>
+
+@code {
+    [Parameter]
+    public string Image { get; set; } = "default.png";
+    [Parameter]
+    public string Title { get; set; } = "Default title";
+    [Parameter]
+    public string Description { get; set; } = "There should be a description here...";
+    [Parameter]
+    public string? Id { get; set; }
+}

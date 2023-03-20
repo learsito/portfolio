@@ -1,0 +1,22 @@
+@page "/Projects"
+@using MainElements
+@using ProjectsPages
+
+@foreach (var project in projects) {
+    <ProjectArticle Title=@project.Title Image=@project.Image Description=@project.Description Href=@project.Href />
+}
+
+
+    
+@code {
+    List<ProjectsBase> projects = new();
+
+    protected override void OnInitialized()
+    {
+        projects.AddRange(new List<ProjectsBase>
+            {
+                new ProjectsBase { Title = "Portfolio", Image="PortfolioPage.png", Description="This page. You can check out the code at my GitHub page.", Href="PortfolioPage" }
+            });
+    }
+}
+

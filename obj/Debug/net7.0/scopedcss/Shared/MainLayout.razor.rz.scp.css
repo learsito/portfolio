@@ -1,0 +1,33 @@
+main[b-fakg1nhl2w] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+footer[b-fakg1nhl2w] {
+    margin-top: 3rem;
+    background-color: #364552;
+    padding: 0.5rem;
+}
+
+a[b-fakg1nhl2w] {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0.5rem;
+    float: inline-start;
+    margin-left: 2rem;
+}
+
+a:hover[b-fakg1nhl2w] {
+    background-color: #3c4a57;
+    cursor: pointer;
+    border-radius: 4rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+#mailme[b-fakg1nhl2w]{
+    float: inline-end;
+    margin-right: 2rem;
+}

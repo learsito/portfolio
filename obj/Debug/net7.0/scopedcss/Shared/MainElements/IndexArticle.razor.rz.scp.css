@@ -1,0 +1,33 @@
+article[b-3g6upsd846] {
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 3rem;
+    max-width: 100rem;
+    margin: 3rem;
+    margin-bottom: 0;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+div[b-3g6upsd846] {
+    float: right;
+}
+
+h2[b-3g6upsd846] {
+    margin: 0.2rem;
+    display: block;
+}
+
+img[b-3g6upsd846] {
+    margin: 0.7rem;
+    float: inline-start;
+    border-radius: 100%;
+}
+
+p[b-3g6upsd846] {
+    display: block;
+    max-width: 30rem;
+}
+
+span[b-3g6upsd846] {
+    margin: 0 auto;
+}

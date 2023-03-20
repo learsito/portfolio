@@ -1,0 +1,42 @@
+header[b-64h40wtdhd] {
+    background-color: #364552;
+}
+
+h1[b-64h40wtdhd] {
+    float: inline-start;
+    padding: 2rem;
+    margin: 0;
+}
+
+img[b-64h40wtdhd] {
+    float: left;
+    margin: 0.5rem;
+}
+
+a[b-64h40wtdhd] {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 1.5rem;
+    float: inline-start;
+}
+
+ul[b-64h40wtdhd] {
+    float: inline-end;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+li[b-64h40wtdhd] {
+    float: inline-start;
+    margin: 0rem;
+    padding: 1.5rem;
+    list-style: none;
+}
+
+a:hover[b-64h40wtdhd] {
+    background-color: #3c4a57;
+    cursor: pointer;
+    border-radius: 4rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3) ;
+}

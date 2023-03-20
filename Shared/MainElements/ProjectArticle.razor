@@ -1,0 +1,20 @@
+@namespace MainElements
+
+    <article>
+        <a href=@Href>
+            <h2>@Title</h2>
+            <img src="img/projects/@Image" >
+            <p>@Description</p>
+        </a>
+    </article>
+
+@code {
+    [Parameter]
+    public string? Title { get; set; }
+    [Parameter]
+    public string? Image { get; set; }
+    [Parameter]
+    public string? Description { get; set; }
+    [Parameter]
+    public string? Href { get; set; }
+}

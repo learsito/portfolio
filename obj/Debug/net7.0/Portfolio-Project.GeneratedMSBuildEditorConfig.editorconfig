@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Portfolio-Project
+build_property.RootNamespace = Portfolio-Project
+build_property.ProjectDir = C:\Users\Diego Villaseñor\Documents\Portfolio-Project\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Diego Villaseñor\Documents\Portfolio-Project
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Diego Villaseñor/Documents/Portfolio-Project/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diego Villaseñor/Documents/Portfolio-Project/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Diego Villaseñor/Documents/Portfolio-Project/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ez1sp6mb45
+
+[C:/Users/Diego Villaseñor/Documents/Portfolio-Project/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wyykdekyiw
+
+[C:/Users/Diego Villaseñor/Documents/Portfolio-Project/Shared/MainElements/IndexArticle.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5FbGVtZW50c1xJbmRleEFydGljbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3g6upsd846
+
+[C:/Users/Diego Villaseñor/Documents/Portfolio-Project/Shared/MainElements/ProjectArticle.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5FbGVtZW50c1xQcm9qZWN0QXJ0aWNsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-wkpq1nhfyf
+
+[C:/Users/Diego Villaseñor/Documents/Portfolio-Project/Shared/MainElements/TopBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5FbGVtZW50c1xUb3BCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-64h40wtdhd
+
+[C:/Users/Diego Villaseñor/Documents/Portfolio-Project/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fakg1nhl2w
