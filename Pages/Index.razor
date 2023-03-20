@@ -1,5 +1,6 @@
 ﻿@page "/"
 @using MainElements
+@using Technologies
 
 <article>
     <img src="favicon.png" height="150rem" >
@@ -7,29 +8,29 @@
         <h2>Hello World! I'm Diego.</h2>
         <p>I'm a software developer, committed with the fine solution creation. </p>
         <span>
-            <a href="#csharp">
-                <img src="img/BlazorT.png" height="40rem" >
-            </a>
-            <img src="img/CsharpT.png" height="40rem" >
-            <img src="img/CssT.png" height="40rem" >
-            <img src="img/HtmlT.png" height="40rem" >
-            <img src="img/JavaScriptT.png" height="40rem" >
+            @foreach (var technology in technologies){
+                <img src="img/techs/@technology.Image" height="40rem" >
+            }
         </span>
     </div>
     
 </article>
 
-<IndexArticle Title="Blazor" Id="first" Image="BlazorT.png" Description="Blazor technology 
-is one of my strengths in Web Development. I'm familiarized with the creation and
-implementation of components, namespaces management, and so on. Take a look at this site,
-it is built with blazor WebAssembly." />
-<IndexArticle Title="C#" Id="csharp" Image="CsharpT.png" Description="C Sharp is simply perfect.
-It allows you to develop desktop and mobile apps, web aplications in the back-end and in the front-end
-(With Blazor, for example), and even videogames! I'm way more familiarized with this languaje than with JavaScript,
-Thats why I've choose it to build my portfolio." />
-<IndexArticle Title="CSS" Id="CSS" Image="CssT.png" Description="CSS, one of the basics and
-complex technologies at the same time. I'm familiarized with stilyzing HTML components, with
-flex-box more than anything else." />
-<IndexArticle Title="HTML" Id="HTML" Image="HtmlT.png" Description="HTML does not requires any explaination.
-A simply text-markup languaje, easy to use and the base of any App Web and web site. I'm familiarized with all
-the necesary of it to build anything." />
+@foreach (var technology in technologies) {
+    <IndexArticle Title=@technology.Title Id=@technology.Id Image=@technology.Image Href=@technology.Href Description=@technology.Description />
+}
+
+@code {
+    List<TechnologiesBase> technologies = new();
+
+    protected override void OnInitialized() {
+        technologies.AddRange(new List<TechnologiesBase>{
+                new TechnologiesBase { Title="Blazor", Id="first", Image="BlazorT.png", Description="Blazor technology is one of my strengths in Web Development. I'm familiarized with the creation and implementation of components, namespaces management, and so on. Take a look at this site, it is built with blazor WebAssembly." },
+                new TechnologiesBase { Title="C#", Id="csharp", Image="CsharpT.png", Description="C Sharp is simply perfect. It allows you to develop desktop and mobile apps, web aplications in the back-end and in the front-end (With Blazor, for example), and even videogames! I'm way more familiarized with this languaje than with JavaScript, Thats why I've choose it to build my portfolio." },
+                new TechnologiesBase { Title="CSS", Id="CSS", Image="CssT.png", Description="CSS, one of the basics and complex technologies at the same time. I'm familiarized with stilyzing HTML components, with flex-box more than anything else." },
+                new TechnologiesBase { Title="HTML", Id="HTML", Image="HtmlT.png", Description="HTML does not requires any explaination. A simply text-markup languaje, easy to use and the base of any App Web and web site. I'm familiarized with all the necesary of it to build anything." },
+                new TechnologiesBase { Title="JavaScript", Id="JS", Image="JavaScriptT.png", Description="JavaScript is a powerful and versatile language used for creating interactive and dynamic web pages. I'm familiar with working with JavaScript in conjunction with HTML and CSS to handle user input, and dynamically update page content." }
+            });
+    }
+}
+

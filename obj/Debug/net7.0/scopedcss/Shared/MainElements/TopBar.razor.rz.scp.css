@@ -22,13 +22,16 @@ a[b-64h40wtdhd] {
 }
 
 ul[b-64h40wtdhd] {
-    float: inline-end;
+    display: flex;
+    align-items: stretch;
+    float: right;
     margin: 0;
-    padding: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 1.5rem;
+    padding-left: 0;
 }
 
 li[b-64h40wtdhd] {
-    float: inline-start;
     margin: 0rem;
     padding: 1.5rem;
     list-style: none;

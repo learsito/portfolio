@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1508491269,
-        "Kind": "Components.Component",
-        "Name": "Portfolio_Project.Pages.Index",
-        "AssemblyName": "Portfolio-Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Portfolio_Project.Pages.Index",
-          "Common.TypeNamespace": "Portfolio_Project.Pages",
-          "Common.TypeNameIdentifier": "Index"
-        }
-      },
-      {
-        "HashCode": 1058027676,
-        "Kind": "Components.Component",
-        "Name": "Portfolio_Project.Pages.Index",
-        "AssemblyName": "Portfolio-Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Portfolio_Project.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Portfolio_Project.Pages.Index",
-          "Common.TypeNamespace": "Portfolio_Project.Pages",
-          "Common.TypeNameIdentifier": "Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -236092979,
         "Kind": "Components.Component",
         "Name": "Portfolio_Project.Pages.Projects",
@@ -79,6 +42,43 @@
           "Common.TypeName": "Portfolio_Project.Pages.Projects",
           "Common.TypeNamespace": "Portfolio_Project.Pages",
           "Common.TypeNameIdentifier": "Projects",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1508491269,
+        "Kind": "Components.Component",
+        "Name": "Portfolio_Project.Pages.Index",
+        "AssemblyName": "Portfolio-Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Portfolio_Project.Pages.Index",
+          "Common.TypeNamespace": "Portfolio_Project.Pages",
+          "Common.TypeNameIdentifier": "Index"
+        }
+      },
+      {
+        "HashCode": 1058027676,
+        "Kind": "Components.Component",
+        "Name": "Portfolio_Project.Pages.Index",
+        "AssemblyName": "Portfolio-Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Portfolio_Project.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Portfolio_Project.Pages.Index",
+          "Common.TypeNamespace": "Portfolio_Project.Pages",
+          "Common.TypeNameIdentifier": "Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -226,119 +226,6 @@
         }
       },
       {
-        "HashCode": 1265072071,
-        "Kind": "Components.Component",
-        "Name": "MainElements.IndexArticle",
-        "AssemblyName": "Portfolio-Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IndexArticle"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Image",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Image",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Description",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Description",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MainElements.IndexArticle",
-          "Common.TypeNamespace": "MainElements",
-          "Common.TypeNameIdentifier": "IndexArticle"
-        }
-      },
-      {
-        "HashCode": 241963842,
-        "Kind": "Components.Component",
-        "Name": "MainElements.IndexArticle",
-        "AssemblyName": "Portfolio-Project",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainElements.IndexArticle"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Image",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Image",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Description",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Description",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MainElements.IndexArticle",
-          "Common.TypeNamespace": "MainElements",
-          "Common.TypeNameIdentifier": "IndexArticle",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1778559527,
         "Kind": "Components.Component",
         "Name": "MainElements.TopBar",
@@ -398,7 +285,7 @@
         }
       },
       {
-        "HashCode": -1153947544,
+        "HashCode": -1419634469,
         "Kind": "Components.Component",
         "Name": "MainElements.ProjectArticle",
         "AssemblyName": "Portfolio-Project",
@@ -411,6 +298,15 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
             "Name": "Title",
             "TypeName": "System.String",
             "Metadata": {
@@ -444,6 +340,15 @@
               "Common.PropertyName": "Href",
               "Common.GloballyQualifiedTypeName": "global::System.String"
             }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NewTab",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "NewTab",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
           }
         ],
         "Metadata": {
@@ -454,7 +359,7 @@
         }
       },
       {
-        "HashCode": 2113146527,
+        "HashCode": -1346770402,
         "Kind": "Components.Component",
         "Name": "MainElements.ProjectArticle",
         "AssemblyName": "Portfolio-Project",
@@ -467,6 +372,15 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
             "Name": "Title",
             "TypeName": "System.String",
             "Metadata": {
@@ -500,6 +414,15 @@
               "Common.PropertyName": "Href",
               "Common.GloballyQualifiedTypeName": "global::System.String"
             }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NewTab",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "NewTab",
+              "Common.GloballyQualifiedTypeName": "global::System.Boolean"
+            }
           }
         ],
         "Metadata": {
@@ -507,6 +430,137 @@
           "Common.TypeName": "MainElements.ProjectArticle",
           "Common.TypeNamespace": "MainElements",
           "Common.TypeNameIdentifier": "ProjectArticle",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1526571538,
+        "Kind": "Components.Component",
+        "Name": "MainElements.IndexArticle",
+        "AssemblyName": "Portfolio-Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IndexArticle"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Href",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Href",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Image",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Image",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Description",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MainElements.IndexArticle",
+          "Common.TypeNamespace": "MainElements",
+          "Common.TypeNameIdentifier": "IndexArticle"
+        }
+      },
+      {
+        "HashCode": -1622059797,
+        "Kind": "Components.Component",
+        "Name": "MainElements.IndexArticle",
+        "AssemblyName": "Portfolio-Project",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainElements.IndexArticle"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Href",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Href",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Image",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Image",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Description",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MainElements.IndexArticle",
+          "Common.TypeNamespace": "MainElements",
+          "Common.TypeNameIdentifier": "IndexArticle",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

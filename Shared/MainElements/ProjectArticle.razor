@@ -1,14 +1,24 @@
 @namespace MainElements
 
-    <article>
-        <a href=@Href>
+    @if (NewTab) {
+        <a id=@Id href=@Href target="_blank">
             <h2>@Title</h2>
             <img src="img/projects/@Image" >
             <p>@Description</p>
         </a>
-    </article>
+        } else {
+        <a id=@Id href=@Href>
+            <img src="img/projects/@Image" >
+            <div>
+                <h2>@Title</h2>
+                <p>@Description</p>
+            </div>
+        </a>
+    }
 
 @code {
+    [Parameter]
+    public string? Id { get; set; }
     [Parameter]
     public string? Title { get; set; }
     [Parameter]
@@ -17,4 +27,6 @@
     public string? Description { get; set; }
     [Parameter]
     public string? Href { get; set; }
+    [Parameter]
+    public bool NewTab { get; set; }
 }

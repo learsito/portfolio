@@ -3,7 +3,7 @@
 @using ProjectsPages
 
 @foreach (var project in projects) {
-    <ProjectArticle Title=@project.Title Image=@project.Image Description=@project.Description Href=@project.Href />
+    <ProjectArticle Id=@project.Id Title=@project.Title Image=@project.Image Description=@project.Description Href=@project.Href NewTab=@project.NewTab />
 }
 
 
@@ -11,11 +11,10 @@
 @code {
     List<ProjectsBase> projects = new();
 
-    protected override void OnInitialized()
-    {
+    protected override void OnInitialized() {
         projects.AddRange(new List<ProjectsBase>
             {
-                new ProjectsBase { Title = "Portfolio", Image="PortfolioPage.png", Description="This page. You can check out the code at my GitHub page.", Href="PortfolioPage" }
+                new ProjectsBase { Id="Portfolio", Title = "Portfolio", Image="PortfolioPage.png", Description="This page. You can check out the code at my GitHub page.", Href="https://github.com/learsito/portfolio", NewTab=true }
             });
     }
 }

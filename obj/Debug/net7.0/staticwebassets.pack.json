@@ -25,36 +25,36 @@
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\BlazorT.png",
-      "PackagePath": "staticwebassets\\img\\BlazorT.png"
-    },
-    {
-      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\CsharpT.png",
-      "PackagePath": "staticwebassets\\img\\CsharpT.png"
-    },
-    {
-      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\CssT.png",
-      "PackagePath": "staticwebassets\\img\\CssT.png"
-    },
-    {
-      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\HtmlT.png",
-      "PackagePath": "staticwebassets\\img\\HtmlT.png"
-    },
-    {
-      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\JavaScriptT.png",
-      "PackagePath": "staticwebassets\\img\\JavaScriptT.png"
-    },
-    {
-      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\default.png",
-      "PackagePath": "staticwebassets\\img\\default.png"
-    },
-    {
       "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\projects\\PortfolioPage.png",
       "PackagePath": "staticwebassets\\img\\projects\\PortfolioPage.png"
     },
     {
       "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\projects\\default.png",
       "PackagePath": "staticwebassets\\img\\projects\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\techs\\BlazorT.png",
+      "PackagePath": "staticwebassets\\img\\techs\\BlazorT.png"
+    },
+    {
+      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\techs\\CsharpT.png",
+      "PackagePath": "staticwebassets\\img\\techs\\CsharpT.png"
+    },
+    {
+      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\techs\\CssT.png",
+      "PackagePath": "staticwebassets\\img\\techs\\CssT.png"
+    },
+    {
+      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\techs\\HtmlT.png",
+      "PackagePath": "staticwebassets\\img\\techs\\HtmlT.png"
+    },
+    {
+      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\techs\\JavaScriptT.png",
+      "PackagePath": "staticwebassets\\img\\techs\\JavaScriptT.png"
+    },
+    {
+      "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\img\\techs\\default.png",
+      "PackagePath": "staticwebassets\\img\\techs\\default.png"
     },
     {
       "Id": "C:\\Users\\Diego Villaseñor\\Documents\\Portfolio-Project\\wwwroot\\index.html",
